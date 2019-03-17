@@ -26,5 +26,4 @@ The sixth layer is a fully connected layer (F6) with 84 units.<br/>
 Finally, there is a fully connected softmax output layer ŷ with 10 possible values corresponding to the 10 different classes.<br/><br/>
 
 ### Training and Tesing <br/>
-![Training Loss](Training.png)<br/>
-![Testing Accuracy](Testing.png)<br/>
+![Training Loss](Training.png) ![Testing Accuracy](Testing.png)<br/>
