@@ -27,4 +27,4 @@ Finally, there is a fully connected softmax output layer ŷ with 10 possible val
 
 ### Training and Tesing <br/>
 ![Training Loss](Training-Loss-Cifar10.png)<br/>
-![Testing Accuracy](Testing-Accuracy-Cifar 10.png)<br/>
+![Testing Accuracy](Testing-Accuracy-Cifar-10.png)<br/>
