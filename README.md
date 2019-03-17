@@ -4,11 +4,11 @@ This is a LeNet5 architecture based CNN model to classify CIFAR10 dataset. Pytor
 
 ### About Dataset 
 The CIFAR-10 dataset contains 60,000 32x32 color images in 10 different classes. The 10 different classes represent airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks. There are 6,000 images of each class. Training set contains 50,000 images with 5,000 images from each class and testing set contains 10,000 images from each class.<br/>
-![CIFAR10 Dataset](CIFAR10.png)<br/><br/>
+![CIFAR10 Dataset](CIFAR10.png)<br/>
 
 ### About LeNet-5 architecture
 The LeNet-5 architecture consists of two sets of convolutional and average pooling layers, followed by a flattening convolutional layer, then two fully-connected layers and finally a softmax classifier.<br/>
-
+![LeNet 5 architecture](LeNet5.png)<br/>
 
 First layer:<br/>
 The input for LeNet-5 is a 32×32 RGB image which passes through the first convolutional layer with 6 feature maps or filters having size 5×5 and a stride of one. The image dimensions changes from 32x32x3 to 28x28x6.<br/>
@@ -26,3 +26,5 @@ Output layer:<br/>
 Finally, there is a fully connected softmax output layer ŷ with 10 possible values corresponding to the 10 different classes.<br/><br/>
 
 ### Training and Tesing
+![Training Loss](Training Loss Cifar10.png)<br/>
+![Testing Accuracy](Testing Accuracy Cifar 10.png)<br/>
